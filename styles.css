@@ -1,0 +1,20 @@
+body {
+    background-color: gray;
+}
+main {
+    background-color: white;
+    padding-bottom: 38%;
+    margin-right: 36%;
+    margin-left: 36%;
+    margin-top: 8%;
+    border-radius: 3%;
+}
+button {
+    color: white;
+    background-color: yellow;
+    border-radius: 100%;
+    border: 0;
+    height: 50px;
+    width: 50px;
+    font-size: 2.5em;
+}
