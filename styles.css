@@ -1,13 +1,16 @@
 body {
     background-color: gray;
+    font-family: 'Quicksand', sans-serif; 
 }
 main {
     background-color: white;
-    padding-bottom: 38%;
-    margin-right: 36%;
-    margin-left: 36%;
-    margin-top: 8%;
+    margin: auto;
+    display: flex;
+    flex-direction: column; 
+    max-width: 500px;
+    height: 500px;
     border-radius: 3%;
+    margin-top: 150px;
 }
 button {
     color: white;
@@ -17,4 +20,27 @@ button {
     height: 50px;
     width: 50px;
     font-size: 2.5em;
+}
+header {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+} 
+
+#nehtoto, #hohoto {
+    width: 40%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+footer {
+    display: flex;
+    width: 40%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    text-align: center;
 }
