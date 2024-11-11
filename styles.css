@@ -185,6 +185,7 @@ input:focus {
     border-radius: 50%;
     background-color: #FFBA08;
     margin-left: auto;
+    border: white;
 }
 
 .button span {
