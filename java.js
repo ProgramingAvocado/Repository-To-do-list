@@ -7,3 +7,7 @@ function create_task(name) {
     new_task.classList.remove("task-template")
     task_container.append(new_task)
 }
+
+function addukol() {
+    create_task(task-to-add)
+}
